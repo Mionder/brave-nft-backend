@@ -3,10 +3,10 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 
-var TaskSchema = new Schema({
+const BrigadeSchema = new Schema({
   name: {
     type: String,
-    required: 'Kindly enter the name of the task'
+    required: 'Kindly enter the name of the brigade'
   },
   Created_date: {
     type: Date,
@@ -21,4 +21,12 @@ var TaskSchema = new Schema({
   }
 });
 
-module.exports = mongoose.model('Tasks', TaskSchema);
+const UserSchema = new Schema({
+  id: {
+    type: String,
+    required: false
+  }
+})
+
+module.exports = mongoose.model('Brigades', BrigadeSchema);
+module.exports = mongoose.model('Users', UserSchema);

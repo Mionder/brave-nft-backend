@@ -3,13 +3,20 @@ module.exports = function(app) {
   var todoList = require('../controllers/controller');
 
   // todoList Routes
-  app.route('/tasks')
-    .get(todoList.list_all_tasks)
-    .post(todoList.create_a_task);
+  app.route('/brigades')
+    .get(todoList.list_all_brigades)
+    .post(todoList.create_a_brigade);
 
 
-  app.route('/tasks/:taskId')
-    .get(todoList.read_a_task)
-    .put(todoList.update_a_task)
-    .delete(todoList.delete_a_task);
+  app.route('/brigades/:brigadeId')
+    .get(todoList.read_a_brigade)
+    .put(todoList.update_a_brigade)
+    .delete(todoList.delete_a_brigade);
+
+  app.route('/users')
+    .get(todoList.list_all_users)
+    .post(todoList.create_a_user);
+    
+  app.route('/users/:userId')
+    .delete(todoList.delete_a_user);
 };
