@@ -8,6 +8,37 @@ const BrigadeSchema = new Schema({
     type: String,
     required: 'Kindly enter the name of the brigade'
   },
+  year: {
+    type: Number,
+    required: 'Enter year'
+  },
+  kindOfTroops: {
+    type: String,
+  },
+  typeOfTroops: {
+    type: String
+  },
+  awards: {
+    type: String
+  },
+  motto: {
+    type: String
+  },
+  trophies: {
+    type: String
+  },
+  protector: {
+    type: String
+  },
+  pet: {
+    type: String
+  },
+  videoLink: {
+    type: String
+  },
+  img: {
+    type: String
+  },
   Created_date: {
     type: Date,
     default: Date.now
