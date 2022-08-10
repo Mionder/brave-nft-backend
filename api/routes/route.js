@@ -1,6 +1,7 @@
 'use strict';
 module.exports = function(app) {
   var todoList = require('../controllers/controller');
+  var NodeMailer = require('../../nodemailer');
 
   // todoList Routes
   app.route('/brigades')
@@ -19,4 +20,7 @@ module.exports = function(app) {
     
   app.route('/users/:userId')
     .delete(todoList.delete_a_user);
+
+  app.route('/registration')
+    .post(NodeMailer.nodemailerSignIn);
 };
