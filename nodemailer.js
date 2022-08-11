@@ -12,7 +12,9 @@ exports.nodemailerSignIn = async (req, res) => {
     <p style="font-size: 16px">Данные для входа</p>
 
     <ul>
-      <li style="font-size: 18px; list-style: none">Email: ${req.body.email}</li>      
+      <li style="font-size: 18px; list-style: none">Email: ${req.body.email}</li>   
+      <li style="font-size: 18px; list-style: none">Token: ${req.body.token}</li>   
+      <a style="font-size: 16px; list-style: none" href="http://localhost:8000/admin">Enter the website</a>   
     </ul>
   `;
 
