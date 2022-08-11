@@ -56,6 +56,18 @@ const UserSchema = new Schema({
   id: {
     type: String,
     required: false
+  },
+  email: {
+    type: String,
+    required: true,
+  },
+  token: {
+    type: String,
+    required: true,
+  },
+  isExpired: {
+    type: Boolean,
+    required: true
   }
 })
 
