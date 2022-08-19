@@ -1,0 +1,46 @@
+[{
+  "_id": {
+    "$oid": "62ff9ea4ff68d5aa20132b25"
+  },
+  "description": "Kholodnoyarivtsy is a military pillar of Ukrainian independence. The Brigade took part in the defense of the Donetsk airport, the operation in Ilovaisk, and other essential war battles in the East of Ukraine. Since the full-scale invasion, the 93rd Brigade has accomplished many feats. The people of Kholodnoyariv took the first Russian prisoners, destroyed a column of vehicles near Kharkiv, using the Ukrainian anti-tank missile \"Stugna\", and liberated the cities of Trostyanets and Okhtyrka.",
+  "editions": 1000,
+  "name": "“kholodny yar” 93rd brigade",
+  "price": 30,
+  "video": ""
+},{
+  "_id": {
+    "$oid": "62ffa1f0ca617cfbb9dcbfe8"
+  },
+  "description": "The twenty-fourth separate mechanized Brigade named after King Danylo is based in the Lviv region and is a part of the operational command \"West\".\nSince the beginning of the Russian-Ukrainian war in 2014, fighters have been actively participating in operations in the east: they fought for Krasny Liman, Lysychansk. They defended the area near the Luhansk airport.\n\nDuring the full-scale invasion, the Brigade had already distinguished itself by its bravery in the defense of Popasnaya. Soldiers of the Brigade have repeatedly participated in peacekeeping missions and exercises: \"Artery 2007\", \"Interaction 2010\", \"Shield of Peace\" and in the joint program with NATO \"Partnership for the sake of peace\".\nIn 2005, the Brigade was named the best unit of the Ground Forces of the Armed Forces of Ukraine\n",
+  "editions": 1000,
+  "name": "King Daniel 24th Brigade",
+  "price": 30,
+  "video": ""
+},{
+  "_id": {
+    "$oid": "62ffa20bca617cfbb9dcbfe9"
+  },
+  "description": "Union of Tank Ground Forces of the Armed Forces of Ukraine. The Brigade was formed in 2017, and just one year later, it was undergoing a stage of combat adjustment at the Gonchariv landfill, where it was preparing for rotation in the combat zone in the east of Ukraine. The Brigade includes three tank battalions, a mechanized battalion, an artillery group, and support services. Among the weapons are T-72 tanks of various modifications, T-64BM tank \"Bulat.\"",
+  "editions": 1000,
+  "name": "4th Separate Tank Brigade",
+  "price": 30,
+  "video": ""
+},{
+  "_id": {
+    "$oid": "62ffa222ca617cfbb9dcbfea"
+  },
+  "description": "The \"Azov\" regiment was created as a volunteer formation at the beginning of the Russian invasion of the eastern regions of Ukraine. In the first stage, it was a special operations unit of the police patrol service and was based in Mariupol and Berdyansk.\nOn November 11, 2014, the \"Azov\" regiment was transferred to the National Guard of Ukraine.\nDuring the anti-terrorist operation, they were engaged in defending Mariupol and catching saboteurs. They took part in the battles for Maryinka, Ilovaisk, Shirokine, Pavlopil, Pikuzy, Berdyanske, and Lebedyne.\n\nWith the beginning of a full-scale invasion, they were heroically defending Mariupol. The fighters, surrounded on all sides and cut off from any supply channels, were protecting the city for 86 days, destroying more than 2,000 invaders, 50 tanks, and a lot of other equipment. But most importantly, the defense of Mariupol gave the Armed Forces vital time to prepare defenses in other areas, particularly Kyiv.\n",
+  "editions": 1000,
+  "name": "“Azov” 98th Territorial Defense Battalion",
+  "price": 30,
+  "video": ""
+},{
+  "_id": {
+    "$oid": "62ffa237ca617cfbb9dcbfeb"
+  },
+  "description": "A separate special operations unit. In peacetime, it consists of various units stationed in Kyiv, Kharkiv, Odesa, Lviv, and Alexandria and performing anti-terrorist tasks. The unit is staffed by paratroopers, combat swimmers, and mountain training specialists.\nBefore the full-scale invasion, the fighters guarded state officials, participated in the assault on Sloviansk, guarded the Kramatorsk airfield, and conducted operations in Mariupol.\nSince the beginning of the Russian-Ukrainian war, they managed to distinguish themselves on the eastern outskirts of Kharkiv, where they destroyed an enemy checkpoint along with a T-72 tank and a BMP-2, as well as an enemy DRG in Kharkiv itself. In addition, the fighters heroically repelled the attack on the Roza Vitriv checkpoint, prevented the enemy from entering the city, and forced him to retreat, suffering heavy losses.\nThe name and symbolism are based on the last letter of the Greek alphabet, an allusion to the saying \"the last word will be ours\".\n",
+  "editions": 1000,
+  "name": "OMEGA” special unit",
+  "price": 30,
+  "video": ""
+}]

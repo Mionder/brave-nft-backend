@@ -71,5 +71,29 @@ const UserSchema = new Schema({
   }
 })
 
+const NftSchema = new Schema({
+  id: {
+    type: String,
+    required: false
+  },
+  name: {
+    type: String,
+    required: false
+  },
+  price: {
+    type: Number,
+    required: false,
+  },
+  editions: {
+    type: Number,
+    required: false,
+  },
+  video: {
+    type: String,
+    required: false
+  }
+})
+
 module.exports = mongoose.model('Brigades', BrigadeSchema);
 module.exports = mongoose.model('Users', UserSchema);
+module.exports = mongoose.model('Nfts', NftSchema);

@@ -3,7 +3,8 @@
 
 var mongoose = require('mongoose'),
   Brigade = mongoose.model('Brigades'),
-  User = mongoose.model('Users');
+  User = mongoose.model('Users'),
+  Nft = mongoose.model('Nfts');
 
 
 // Users
@@ -77,6 +78,54 @@ exports.delete_a_brigade = function(req, res) {
   Brigade.remove({
     _id: req.params.brigadeId
   }, function(err, brigade) {
+    if (err)
+      res.send(err);
+    res.json({ message: 'brigade successfully deleted' });
+  });
+};
+
+//Nft
+
+exports.list_all_nft = function(req, res) {
+  Nft.find({}, function(err, nft) {
+    if (err)
+      res.send(err);
+    res.json(nft);
+  });
+};
+
+exports.create_a_nft = function(req, res) {
+  var new_nft = new Nft(req.body);
+  new_nft.save(function(err, nft) {
+    if (err)
+      res.send(err);
+    res.json(nft);
+  });
+};
+
+
+exports.read_a_nft = function(req, res) {
+  Nft.findById(req.params.nftId, function(err, nft) {
+    if (err)
+      res.send(err);
+    res.json(nft);
+  });
+};
+
+
+exports.update_a_nft = function(req, res) {
+  Nft.findOneAndUpdate({_id: req.params.nftId}, req.body, {new: true}, function(err, nft) {
+    if (err)
+      res.send(err);
+    res.json(nft);
+  });
+};
+
+
+exports.delete_a_nft = function(req, res) {
+  Nft.remove({
+    _id: req.params.nftId
+  }, function(err, nft) {
     if (err)
       res.send(err);
     res.json({ message: 'brigade successfully deleted' });
