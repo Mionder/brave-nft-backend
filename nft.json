@@ -6,7 +6,8 @@
   "editions": 1000,
   "name": "“kholodny yar” 93rd brigade",
   "price": 30,
-  "video": ""
+  "video": "https://youtu.be/BCetTpkYi4c",
+  "order": 1
 },{
   "_id": {
     "$oid": "62ffa1f0ca617cfbb9dcbfe8"
@@ -15,7 +16,8 @@
   "editions": 1000,
   "name": "King Daniel 24th Brigade",
   "price": 30,
-  "video": ""
+  "video": "https://youtu.be/Fxsx37jcOog",
+  "order": 2
 },{
   "_id": {
     "$oid": "62ffa20bca617cfbb9dcbfe9"
@@ -24,7 +26,8 @@
   "editions": 1000,
   "name": "4th Separate Tank Brigade",
   "price": 30,
-  "video": ""
+  "video": "https://youtu.be/dMfEkJ25asU",
+  "order": 6
 },{
   "_id": {
     "$oid": "62ffa222ca617cfbb9dcbfea"
@@ -33,7 +36,8 @@
   "editions": 1000,
   "name": "“Azov” 98th Territorial Defense Battalion",
   "price": 30,
-  "video": ""
+  "video": "https://youtu.be/uTVTgBVAxYA",
+  "order": 4
 },{
   "_id": {
     "$oid": "62ffa237ca617cfbb9dcbfeb"
@@ -42,5 +46,17 @@
   "editions": 1000,
   "name": "OMEGA” special unit",
   "price": 30,
-  "video": ""
+  "video": "https://youtu.be/vmr-zBWd_ME",
+  "order": 5
+},{
+  "_id": {
+    "$oid": "6325aeadea3f910f3e926139"
+  },
+  "id": "0.7459838098685042",
+  "name": "Test",
+  "price": 30,
+  "editions": 1000,
+  "video": "https://www.youtube.com/watch?v=668nUCeBHyY",
+  "__v": 0,
+  "order": 7
 }]
