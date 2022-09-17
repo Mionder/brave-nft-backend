@@ -39,6 +39,9 @@ const BrigadeSchema = new Schema({
   img: {
     type: String
   },
+  order: {
+    type: Number
+  },
   Created_date: {
     type: Date,
     default: Date.now
@@ -91,7 +94,10 @@ const NftSchema = new Schema({
   video: {
     type: String,
     required: false
-  }
+  },
+  order: {
+    type: Number
+  },
 })
 
 module.exports = mongoose.model('Brigades', BrigadeSchema);
