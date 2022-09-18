@@ -42,6 +42,21 @@ const BrigadeSchema = new Schema({
   order: {
     type: Number
   },
+  affiliation: {
+    type: String,
+  },
+  description: {
+    type: String,
+  },
+  facebook: {
+    type: String,
+  },
+  instagram: {
+    type: String,
+  },
+  youtube: {
+    type: String,
+  },
   Created_date: {
     type: Date,
     default: Date.now
@@ -98,6 +113,12 @@ const NftSchema = new Schema({
   order: {
     type: Number
   },
+  description: {
+    type: String,
+  },
+  brigadeId: {
+    type: String,
+  }
 })
 
 module.exports = mongoose.model('Brigades', BrigadeSchema);
