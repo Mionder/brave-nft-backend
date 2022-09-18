@@ -7,7 +7,8 @@
   "name": "“kholodny yar” 93rd brigade",
   "price": 30,
   "video": "https://youtu.be/BCetTpkYi4c",
-  "order": 1
+  "order": 1,
+  "brigadeId": "62d96d6b0d585683a8371217"
 },{
   "_id": {
     "$oid": "62ffa1f0ca617cfbb9dcbfe8"
@@ -17,7 +18,8 @@
   "name": "King Daniel 24th Brigade",
   "price": 30,
   "video": "https://youtu.be/Fxsx37jcOog",
-  "order": 2
+  "order": 2,
+  "brigadeId": "62ff9b9cff68d5aa20132b1f"
 },{
   "_id": {
     "$oid": "62ffa20bca617cfbb9dcbfe9"
@@ -27,7 +29,8 @@
   "name": "4th Separate Tank Brigade",
   "price": 30,
   "video": "https://youtu.be/dMfEkJ25asU",
-  "order": 6
+  "order": 6,
+  "brigadeId": "62ff9c70ff68d5aa20132b20"
 },{
   "_id": {
     "$oid": "62ffa222ca617cfbb9dcbfea"
@@ -37,7 +40,8 @@
   "name": "“Azov” 98th Territorial Defense Battalion",
   "price": 30,
   "video": "https://youtu.be/uTVTgBVAxYA",
-  "order": 4
+  "order": 4,
+  "brigadeId": "62ff9dfaff68d5aa20132b22"
 },{
   "_id": {
     "$oid": "62ffa237ca617cfbb9dcbfeb"
@@ -47,7 +51,8 @@
   "name": "OMEGA” special unit",
   "price": 30,
   "video": "https://youtu.be/vmr-zBWd_ME",
-  "order": 5
+  "order": 5,
+  "brigadeId": "62ff9d2bff68d5aa20132b21"
 },{
   "_id": {
     "$oid": "6325aeadea3f910f3e926139"
@@ -59,4 +64,16 @@
   "video": "https://www.youtube.com/watch?v=668nUCeBHyY",
   "__v": 0,
   "order": 7
+},{
+  "_id": {
+    "$oid": "6327416f5c2f48068103beaa"
+  },
+  "id": "0.6300437442490682",
+  "name": "Test Video",
+  "price": 20,
+  "editions": 500,
+  "video": "https://www.youtube.com/watch?v=hS5CfP8n_js",
+  "description": "My test chevrone",
+  "brigadeId": "6325c0a5029eddc49e9f3e36",
+  "__v": 0
 }]
