@@ -1,7 +1,6 @@
 'use strict';
 
-
-var mongoose = require('mongoose'),
+const mongoose = require('mongoose'),
   Brigade = mongoose.model('Brigades'),
   User = mongoose.model('Users'),
   Nft = mongoose.model('Nfts');
@@ -47,7 +46,7 @@ exports.list_all_brigades = function(req, res) {
 };
 
 exports.create_a_brigade = function(req, res) {
-  var new_brigade = new Brigade(req.body);
+  const new_brigade = new Brigade(req.body);
   new_brigade.save(function(err, brigade) {
     if (err)
       res.send(err);
@@ -95,7 +94,7 @@ exports.list_all_nft = function(req, res) {
 };
 
 exports.create_a_nft = function(req, res) {
-  var new_nft = new Nft(req.body);
+  const new_nft = new Nft(req.body);
   new_nft.save(function(err, nft) {
     if (err)
       res.send(err);

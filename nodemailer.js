@@ -2,7 +2,7 @@ const nodemailer = require('nodemailer')
 const express = require('express');
 const router = express.Router();
 const multer = require('multer');
-var path = require('path')
+const path = require('path')
 
 
 exports.nodemailerSignIn = async (req, res) => {
@@ -50,7 +50,5 @@ exports.nodemailerSignIn = async (req, res) => {
         }
         console.log('Message sent: %s', info.messageId);
         console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
-
-        // res.render('login', {msg:'Email has been sent'});
     });
 }

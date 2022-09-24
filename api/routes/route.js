@@ -1,9 +1,9 @@
 'use strict';
 module.exports = function(app) {
-  var todoList = require('../controllers/controller');
-  var NodeMailer = require('../../nodemailer');
+  const todoList = require('../controllers/controller');
+  const NodeMailer = require('../../nodemailer');
 
-  // todoList Routes
+  //Brigades routes
   app.route('/brigades')
     .get(todoList.list_all_brigades)
     .post(todoList.create_a_brigade);
@@ -14,7 +14,8 @@ module.exports = function(app) {
     .put(todoList.update_a_brigade)
     .delete(todoList.delete_a_brigade);
 
-    app.route('/nft')
+  //NFT Routes
+  app.route('/nft')
     .get(todoList.list_all_nft)
     .post(todoList.create_a_nft);
 
@@ -24,7 +25,7 @@ module.exports = function(app) {
     .put(todoList.update_a_nft)
     .delete(todoList.delete_a_nft);  
 
-
+  //Users Routes
   app.route('/users')
     .get(todoList.list_all_users)
     .post(todoList.create_a_user);
@@ -32,6 +33,7 @@ module.exports = function(app) {
   app.route('/users/:userId')
     .delete(todoList.delete_a_user);
 
+  //Nodemailer Routes  
   app.route('/registration')
     .post(NodeMailer.nodemailerSignIn);
 };
